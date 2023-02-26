@@ -1,0 +1,85 @@
+﻿@page
+@model primerParcial.Pages.Videojuegos.CrearModel
+@section scripts{
+<partial name="_ValidationScriptsPartial" />
+}
+@{
+    ViewData["Title"] = "Crear Videojuego";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h4 class="text-center text-info">Añadir Videojuego</h4>
+                
+                <form method="post" class="row g-3">
+                   
+                    
+                    <div class="col-md-12">
+                        <label class="form-label" asp-for="VideojuegoIng.Titulo">Titulo</label>
+                        <input class="form-control" asp-for="VideojuegoIng.Titulo" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoIng.Titulo" ></span>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoIng.FechaLanzamiento">Fecha de Lanzamiento</label>
+                        <input class="form-control" type="date" asp-for="VideojuegoIng.FechaLanzamiento" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoIng.FechaLanzamiento" ></span>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoIng.Genero">Genero</label>
+                        <input class="form-control" asp-for="VideojuegoIng.Genero" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoIng.Genero" ></span>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoIng.EmpresaId">Desarrollador</label>
+                        <select class="form-select" asp-for="VideojuegoIng.EmpresaId" asp-items="Model.EmpresasLista">
+                                                      
+                        </select>
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoIng.EmpresaId" ></span>
+                    </div>
+                   
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoIng.PlataformaId">Plataforma</label>
+                        <select class="form-select" asp-for="VideojuegoIng.PlataformaId" asp-items="Model.PlataformasLista">
+                                                      
+                        </select>
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoIng.PlataformaId" ></span>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoIng.Precio">Precio</label>
+                        <input class="form-control" asp-for="VideojuegoIng.Precio" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoIng.Precio" ></span>
+                    </div>
+
+                    <br>
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoIng.PuntajeMetacritic">Puntaje de Metacritic</label>
+                        <input class="form-control" asp-for="VideojuegoIng.PuntajeMetacritic" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoIng.PuntajeMetacritic" ></span>
+                    </div>
+
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" asp-for="VideojuegoIng.TieneLogros" />
+                        <label class="form-check-label" >¿Tiene logros?</label>
+                    </div>
+                    <br>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" asp-for="VideojuegoIng.Multijugador" />
+                        <label class="form-check-label">¿Tiene multijugador?</label>
+                    </div>
+                    <br>
+                    
+                    <div >
+                        <input class="btn btn-success btn-sm" type="submit" value="Guardar" />
+                    </div>
+
+                </form>
+        </div>
+    </div>
+    <a asp-page="Listado" class="btn btn-primary btn-sm">Volver al listado</a>
+</div>
+

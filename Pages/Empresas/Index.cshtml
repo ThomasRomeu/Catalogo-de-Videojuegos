@@ -1,0 +1,144 @@
+@page
+@model primerParcial._Pages_Empresas.IndexModel
+
+@{
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    ViewData["Title"] = "Listado de Empresas";
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </symbol> 
+    </svg>
+}
+@functions{
+    void MostrarFechaFundacion(DateTime fec)
+    {
+        <span>@fec.ToString("MM/dd/yyyy")</span>
+    }
+    async Task MostrarLogo(string idtitulo)
+    {
+        <img class="img-fluid rounded-start" style="max-width: 50px;" src="@Url.Content("~/imgEmpresa/" + idtitulo + ".jpg" )" />
+    }
+}
+
+
+
+<div class="container">
+    @if (Model.MensajeExitoso != null){
+        <div class="alert alert-success alert-dismissible fade show d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+            @Model.MensajeExitoso
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"/>
+        </div>
+    }
+    @if (Model.MensajeBorrado != null){
+        <div class="alert alert-success alert-dismissible fade show d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+            @Model.MensajeBorrado
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"/>
+        </div>
+    }
+    @if (Model.MensajeEditado != null){
+        <div class="alert alert-success alert-dismissible fade show d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+            @Model.MensajeEditado
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"/>
+        </div>
+    }
+    <form method="GET">
+        <div class="d-flex flex-row">
+            <div class="p-2">
+                <div class="input-group">
+                    <input class="form-control py-2 border-right-0 border" type="search" placeholder="Buscar por Nombre" name="filtroNombre" />
+                    <span class="input-group-append">
+                        <button class="input-group-text bg-transparent py-2 border-right-0 border">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+            <div class="p-2">
+                <div class="input-group">
+                    <input class="form-control py-2 border-right-0 border" type="search" placeholder="Buscar por Pais" name="filtroPais" />
+                    <span class="input-group-append">
+                        <button class="input-group-text bg-transparent py-2 border-right-0 border">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+            <div class="float-right p-2">
+                <a asp-page="Index" class="btn btn-outline-secondary">Limpiar Filtros</a><br>
+            </div>
+            <div class="float-right p-2">
+                <a asp-page="Create" class="btn btn-success">Agregar Empresa</a>
+            </div>
+        </div>   
+    </form>
+    <table class="table table-hover">
+        <thead>
+            <tr class="table-info">
+                <th>
+                    Logo
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Empresa[0].Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Empresa[0].Pais)
+                </th>
+                <th>
+                    <div class="d-flex ">
+                            @Html.DisplayNameFor(model => model.Empresa[0].FechaFundada)
+                            <a asp-page="./Index" asp-route-CampoOrden="Fecha_Asc">
+                                <i class="bi bi-arrow-down-short"></i>
+                            </a>
+                            <a asp-page="./Index" asp-route-CampoOrden="Fecha_Desc">
+                                <i class="bi bi-arrow-up-short"></i>
+                            </a>
+                        </div>
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Empresa[0].SitioWeb)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model.Empresa) {
+            <tr>
+                <td>
+                    @{
+                        await MostrarLogo(item.Nombre);
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pais)
+                </td>
+                <td>
+                    @{
+                        MostrarFechaFundacion(@item.FechaFundada);
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SitioWeb)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a> 
+                    <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalles</a> 
+                    <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Borrar</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+    @if (Model.Empresa.Count == 0)
+    {
+        <div class="text-center alert alert-danger" role="alert">
+            <p> No se encontraron resultados para la busqueda </p>
+        </div>
+    }
+</div>

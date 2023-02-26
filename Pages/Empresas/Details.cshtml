@@ -1,0 +1,63 @@
+@page
+@model primerParcial._Pages_Empresas.DetailsModel
+
+@{
+    ViewData["Title"] = "Detalle Empresa";
+}
+@functions {
+    void MostrarFechaFundacion(DateTime fec)
+    {
+        <span>@fec.ToString("MM/dd/yyyy")</span>
+    }
+    async Task MostrarLogo(string idtitulo)
+    {
+        <img class="img-fluid rounded-start" style="max-width: 200px;" src="@Url.Content("~/imgEmpresa/" + idtitulo + ".jpg" )" />
+    }
+}
+
+<div class="container">
+    <h4 class="text-info text-center">Detalles de la Empresa @Html.DisplayFor(x => x.Empresa.Nombre)</h4>
+    <hr />
+    <div class="card text-center container" style="width: 40rem;">
+        <div>
+            @{
+                await MostrarLogo(@Model.Empresa.Nombre);
+            }
+        </div>
+        <div class="card-body text-center">
+            <dl class="row">
+                <dt class="col-sm-5">
+                    @Html.DisplayNameFor(model => model.Empresa.Nombre)
+                </dt>
+                <dd class="col-sm-7">
+                    @Html.DisplayFor(model => model.Empresa.Nombre)
+                </dd>
+                <dt class="col-sm-5">
+                    @Html.DisplayNameFor(model => model.Empresa.Pais)
+                </dt>
+                <dd class="col-sm-7">
+                    @Html.DisplayFor(model => model.Empresa.Pais)
+                </dd>
+                <dt class="col-sm-5">
+                    @Html.DisplayNameFor(model => model.Empresa.FechaFundada)
+                </dt>
+                <dd class="col-sm-7">
+                    @{
+                        MostrarFechaFundacion(Model.Empresa.FechaFundada);
+                    }
+                </dd>
+                <dt class="col-sm-5">
+                    @Html.DisplayNameFor(model => model.Empresa.SitioWeb)
+                </dt>
+                <dd class="col-sm-7">
+                    @Html.DisplayFor(model => model.Empresa.SitioWeb)
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <a asp-page="./Index" class="btn btn-primary btn-sm">Volver al listado</a>
+    </div>
+</div>
+
+

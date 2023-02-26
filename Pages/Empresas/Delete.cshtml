@@ -1,0 +1,46 @@
+@page
+@model primerParcial._Pages_Empresas.DeleteModel
+
+@{
+    ViewData["Title"] = "Borrar Empresa";
+}
+
+
+
+
+<div class="container">
+    <h4 class="text-info text-center">Eliminar la Empresa @Html.DisplayFor(x => x.Empresa.Nombre)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empresa.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empresa.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empresa.Pais)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empresa.Pais)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empresa.FechaFundada)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empresa.FechaFundada)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empresa.SitioWeb)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empresa.SitioWeb)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Empresa.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index" class="btn btn-primary btn-sm">Volver al listado</a>
+    </form>
+</div>

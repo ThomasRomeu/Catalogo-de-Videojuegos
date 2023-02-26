@@ -1,0 +1,90 @@
+﻿@page
+@model primerParcial.Pages.Videojuegos.EditarModel
+@section scripts{
+    <partial name="_ValidationScriptsPartial"/>
+}
+@{
+    ViewData["Title"] = "Editar Videojuego";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h4 class="text-center text-info">Editar el Videojuego @Html.DisplayFor(x=>x.VideojuegoEdit.Titulo)</h4>
+                
+                <br>
+            
+                <form method="post" class="row g-3">
+                    <div class="col-md-2">
+                        <label class="form-label" asp-for="VideojuegoEdit.Id">ID</label>
+                        <input class="form-control" asp-for="VideojuegoEdit.Id" readonly/>
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.Id" ></span>
+                    </div>
+                    
+                    <div class="col-md-10">
+                        <label class="form-label" asp-for="VideojuegoEdit.Titulo">Titulo</label>
+                        <input class="form-control" asp-for="VideojuegoEdit.Titulo" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.Titulo" ></span>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoEdit.FechaLanzamiento">Fecha de Lanzamiento</label>
+                        <input class="form-control" type="date" asp-for="VideojuegoEdit.FechaLanzamiento" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.FechaLanzamiento" ></span>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoEdit.Genero">Genero</label>
+                        <input class="form-control" asp-for="VideojuegoEdit.Genero" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.Genero" ></span>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoEdit.EmpresaId">Desarrollador</label>
+                        <select class="form-select" asp-for="VideojuegoEdit.EmpresaId" asp-items="Model.EmpresasLista">
+                                                      
+                        </select>
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.EmpresaId" ></span>
+                    </div>
+                   
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoEdit.PlataformaId">Plataforma</label>
+                        <select class="form-select" asp-for="VideojuegoEdit.PlataformaId" asp-items="Model.PlataformasLista">
+                                                      
+                        </select>
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.PlataformaId" ></span>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoEdit.Precio">Precio</label>
+                        <input class="form-control" asp-for="VideojuegoEdit.Precio" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.Precio" ></span>
+                    </div>
+
+                    <br>
+                    <div class="col-md-4">
+                        <label class="form-label" asp-for="VideojuegoEdit.PuntajeMetacritic">Puntaje de Metacritic</label>
+                        <input class="form-control" asp-for="VideojuegoEdit.PuntajeMetacritic" />
+                        <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.PuntajeMetacritic" ></span>
+                    </div>
+
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" asp-for="VideojuegoEdit.TieneLogros" />
+                        <label class="form-check-label" >¿Tiene logros?</label>
+                    </div>
+                    <br>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" asp-for="VideojuegoEdit.Multijugador" />
+                        <label class="form-check-label">¿Tiene multijugador?</label>
+                    </div>
+                    <br>
+                    
+                    <div>
+                        <input class="btn btn-success btn-sm" type="submit" value="Editar" />
+                    </div>
+
+                </form>
+        </div>
+    </div>
+    <a asp-page="Listado" class="Id btn btn-primary btn-sm">Volver al listado</a>
+</div>

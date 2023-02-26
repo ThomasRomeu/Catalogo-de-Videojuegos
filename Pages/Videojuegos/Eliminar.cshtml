@@ -1,0 +1,128 @@
+﻿@page
+@model primerParcial.Pages.Videojuegos.EliminarModel
+@{
+    ViewData["Title"] = "Eliminar Videojuego";
+}
+@functions {
+    void MostrarTieneLogros(bool TieneLogros)
+    {
+        if (TieneLogros)
+        {
+            <i class="bi bi-check-square" style="color: green"></i>
+        }
+        else
+        {
+            <i class="bi bi-x-square danger" style="color: red"></i>
+        }
+    }
+    void MostrarMultijugador(bool Multijugador)
+    {
+        if (Multijugador)
+        {
+            <i class="bi bi-check-square" style="color: green"></i>
+        }
+        else
+        {
+            <i class="bi bi-x-square danger" style="color: red"></i>
+        }
+    }
+
+    void MostrarFechaCreacion(DateTime fec)
+    {
+        <span>@fec.ToString("MM/dd/yyyy")</span>
+    }
+
+    void MostrarPlataformas(int plataformaid)
+    {
+        switch (plataformaid)
+        {
+            case 1:
+                <span>PC</span>
+                break;
+            case 2:
+                <span>PlayStation</span>
+                break;
+            case 3:
+                <span>Xbox</span>
+                break;
+            case 4:
+                <span>Nintendo</span>
+                break;
+            case 5:
+                <span>Multiplataforma</span>
+                break;
+        }
+    }
+
+    void MostrarPrecio(double Precio)
+    {
+        if (Precio == 0)
+        {
+            <span>Free to play</span>
+        }
+        else
+        {
+            <span>@Precio.ToString("c",new System.Globalization.CultureInfo("es-AR"))</span>
+        }
+    }
+}
+
+<div class="container">
+    <form method="post">
+        <div class="row">
+            <div class="col-8 offset-2">
+                <h2 class="text-info text-center">Eliminar el Videojuego @Html.DisplayFor(x=>x.VideojuegoElim.Titulo)
+                </h2>
+                <br>
+                <ul class="list-group">
+                    <li class="list-group-item">ID: @Html.DisplayFor(x=>x.VideojuegoElim.Id) </li>
+                    <li class="list-group-item">Titulo: @Html.DisplayFor(x=>x.VideojuegoElim.Titulo)</li>
+                    <li class="list-group-item">
+                        Precio:
+                        @{
+                            MostrarPrecio(@Model.VideojuegoElim.Precio);
+                        }
+                    </li>
+                    <li class="list-group-item">
+                        Fecha de lanzamiento:
+                        @{
+                            MostrarFechaCreacion(@Model.VideojuegoElim.FechaLanzamiento);
+                        }
+                    </li>
+                    <li class="list-group-item">Genero: @Html.DisplayFor(x=>x.VideojuegoElim.Genero)</li>
+                    <li class="list-group-item">Desarrollador: @Html.DisplayFor(x=>x.VideojuegoElim.Empresa.Nombre)</li>
+                    <li class="list-group-item">
+                        Plataforma:
+                        @{
+                            MostrarPlataformas(@Model.VideojuegoElim.PlataformaId);
+                        }
+                    </li>
+                    <li class="list-group-item">
+                        ¿Tiene logros?:
+                        @{
+                            MostrarTieneLogros(@Model.VideojuegoElim.TieneLogros);
+                        }
+                    </li>
+                    <li class="list-group-item">Puntaje de Metacritic:
+                        @Html.DisplayFor(x=>x.VideojuegoElim.PuntajeMetacritic)</li>
+                    <li class="list-group-item">
+                        ¿Multijugador?:
+                        @{
+                            MostrarMultijugador(@Model.VideojuegoElim.Multijugador);
+                        }
+                    </li>
+                </ul>
+                <br>
+                <input class="btn btn-danger btn-sm" type="submit" value="Eliminar"
+                    onclick="return confirm('Esta seguro que desea eliminar?')" />
+            </div>
+        </div>
+    </form>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <a asp-page="Listado" class="btn btn-primary btn-sm">Volver al listado</a>
+        </div>
+    </div>
+</div>

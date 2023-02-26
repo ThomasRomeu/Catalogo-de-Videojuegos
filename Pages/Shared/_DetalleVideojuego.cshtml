@@ -1,0 +1,130 @@
+@model primerParcial.Models.Videojuego
+@{
+    ViewData["Title"] = "Detalle Videojuego";
+}
+@functions {
+    void MostrarTieneLogros(bool TieneLogros)
+    {
+        if (TieneLogros)
+        {
+            <i class="bi bi-check-square" style="color: green"></i>
+        }
+        else
+        {
+            <i class="bi bi-x-square danger" style="color: red"></i>
+        }
+    }
+    void MostrarMultijugador(bool Multijugador)
+    {
+        if (Multijugador)
+        {
+            <i class="bi bi-check-square" style="color: green"></i>
+        }
+        else
+        {
+            <i class="bi bi-x-square danger" style="color: red"></i>
+        }
+    }
+
+    void MostrarFechaCreacion(DateTime fec)
+    {
+        <span>@fec.ToString("MM/dd/yyyy")</span>
+    }
+
+    void MostrarPlataformas(int plataformaid)
+    {
+        switch (plataformaid)
+        {
+            case 1:
+                <span>PC</span>
+                break;
+            case 2:
+                <span>PlayStation</span>
+                break;
+            case 3:
+                <span>Xbox</span>
+                break;
+            case 4:
+                <span>Nintendo</span>
+                break;
+            case 5:
+                <span>Multiplataforma</span>
+                break;
+        }
+    }
+
+    void MostrarPrecio(double Precio)
+    {
+        if (Precio == 0)
+        {
+            <span>Free to play</span>
+        }
+        else
+        {
+            <span>@Precio.ToString("c",new System.Globalization.CultureInfo("es-AR"))</span>
+        }
+    }
+
+    async Task MostrarFotoPerfil(string idtitulo)
+    {
+        <img class="img-fluid rounded-start" style="max-width: 625px;" src="@Url.Content("~/img/" + idtitulo + ".jpg" )" />
+    }
+
+}
+
+
+<div class="container">
+    <div class="card text-center">
+        <div class="card-header">
+            @Model.Titulo
+        </div>
+        <br>
+        <div class="row g-0">
+            <div class="col-md-4">
+                @{
+                    await MostrarFotoPerfil(@Model.Titulo);
+                }
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <p class="card-text"><span class="font-weight-bold">ID:</span>
+                        @Model.Id</p>
+                    <p class="card-text"><span class="font-weight-bold">Fecha de lanzamiento: </span>
+                        @{
+                            MostrarFechaCreacion(@Model.FechaLanzamiento);
+                        }</p>
+                    <p class="card-text"><span class="font-weight-bold">Precio:</span>
+                        @{
+                            MostrarPrecio(@Model.Precio);
+                        }</p>
+                    <p class="card-text"><span class="font-weight-bold">Genero:</span>
+                        @Model.Genero</p>
+                    <p class="card-text"><span class="font-weight-bold">Desarrollador: </span>
+                        @Model.Empresa.Nombre</p>
+                    <p class="card-text"><span class="font-weight-bold">Plataforma:</span>
+                        @{
+                            MostrarPlataformas(@Model.PlataformaId);
+                        }</p>
+                    <p class="card-text"><span class="font-weight-bold">¿Tiene logros?:</span>
+                        @{
+                            MostrarTieneLogros(@Model.TieneLogros);
+                        }</p>
+                    <p class="card-text"><span class="font-weight-bold">Puntaje Metacritic: </span>
+                        @Model.PuntajeMetacritic</p>
+                    <p class="card-text"><span class="font-weight-bold">¿Multijugador?:</span>
+                        @{
+                            MostrarMultijugador(@Model.Multijugador);
+                        }</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <a asp-page="Listado" class="btn btn-primary btn-sm">Volver al listado</a>
+        </div>
+    </div>
+</div>
