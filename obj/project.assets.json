@@ -9817,11 +9817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\losro\\Desktop\\Thomi\\Herramientas de Programacion\\primerParcial\\primerParcial.csproj",
+      "projectUniqueName": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\primerParcial.csproj",
       "projectName": "primerParcial",
-      "projectPath": "C:\\Users\\losro\\Desktop\\Thomi\\Herramientas de Programacion\\primerParcial\\primerParcial.csproj",
+      "projectPath": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\primerParcial.csproj",
       "packagesPath": "C:\\Users\\losro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\losro\\Desktop\\Thomi\\Herramientas de Programacion\\primerParcial\\obj\\",
+      "outputPath": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\losro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9832,6 +9832,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9884,7 +9885,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

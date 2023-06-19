@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nUxBv1oZHCu2teBiNSXSVDEOo/4UuWZnS4RdlMqRIBz+QlAvKjL1ZO1jf1wwe5LB28TwktzaDWCC6wvBctDW4A==",
+  "dgSpecHash": "NH7FmcsSBKsL79MxiEOqeE9FC7rXo+m3eCswGB7TYwmzW45hS9ZRaKWicgcnjOY2QW11x2sG+cssDWzISlZgYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\losro\\Desktop\\Thomi\\Herramientas de Programacion\\primerParcial\\primerParcial.csproj",
+  "projectFilePath": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\primerParcial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\losro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\losro\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

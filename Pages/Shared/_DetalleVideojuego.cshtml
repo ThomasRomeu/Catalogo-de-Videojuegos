@@ -65,9 +65,9 @@
         }
     }
 
-    async Task MostrarFotoPerfil(string idtitulo)
+    async Task MostrarFotoPerfil(string nombrearchivo)
     {
-        <img class="img-fluid rounded-start" style="max-width: 625px;" src="@Url.Content("~/img/" + idtitulo + ".jpg" )" />
+        <img class="img-fluid rounded-start" style="max-width: 625px;" src="@Url.Content("~/img/" + nombrearchivo)" />
     }
 
 }
@@ -82,7 +82,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 @{
-                    await MostrarFotoPerfil(@Model.Titulo);
+                    await MostrarFotoPerfil(@Model.RutaFoto);
                 }
             </div>
             <div class="col-md-8">

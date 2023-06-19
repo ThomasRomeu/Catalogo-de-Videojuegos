@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace primerParcial.Models
 {
@@ -23,7 +24,7 @@ namespace primerParcial.Models
         MaxLength(30, ErrorMessage = "El titulo no debe superar los 30 caracteres"),
         MinLength(2, ErrorMessage = "El titulo debe contener mas de 1 caracter")]
         public string Genero { get; set; }
-      
+
         [Required(ErrorMessage = "Debe ingresar el Precio")]
         public int Precio { get; set; }
 
@@ -41,6 +42,11 @@ namespace primerParcial.Models
 
         public int EmpresaId { get; set; }
         public Empresa Empresa { get; set; }
+
+        [NotMapped]
+        public IFormFile Foto { get; set; }
+
+        public string RutaFoto { get; set; }
 
     }
 }

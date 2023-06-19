@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\primerParcial.props" />
+</Project>

@@ -98,6 +98,10 @@ namespace primerParcial.Migrations
                     b.Property<int>("PuntajeMetacritic")
                         .HasColumnType("int");
 
+                    b.Property<string>("RutaFoto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("TieneLogros")
                         .HasColumnType("bit");
 

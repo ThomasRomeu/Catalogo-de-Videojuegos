@@ -7,6 +7,14 @@
     ViewData["Title"] = "Editar Videojuego";
 }
 
+@functions{
+    async Task MostrarFotoPerfil(string nombrearchivo)
+    {
+        <img class="img-fluid rounded-start" style="max-width: 625px;" src="@Url.Content("~/img/" + nombrearchivo)" />
+    }
+}
+
+
 <div class="container">
     <div class="row">
         <div class="col-8 offset-2">
@@ -14,7 +22,7 @@
                 
                 <br>
             
-                <form method="post" class="row g-3">
+                <form method="post" class="row g-3" enctype="multipart/form-data">
                     <div class="col-md-2">
                         <label class="form-label" asp-for="VideojuegoEdit.Id">ID</label>
                         <input class="form-control" asp-for="VideojuegoEdit.Id" readonly/>
@@ -56,7 +64,7 @@
                     </div>
                     
                     <div class="col-md-4">
-                        <label class="form-label" asp-for="VideojuegoEdit.Precio">Precio</label>
+                        c
                         <input class="form-control" asp-for="VideojuegoEdit.Precio" />
                         <span class="badge bg-danger" asp-validation-for="VideojuegoEdit.Precio" ></span>
                     </div>
@@ -78,7 +86,49 @@
                         <label class="form-check-label">¿Tiene multijugador?</label>
                     </div>
                     <br>
-                    
+
+                    <div class="form-group">
+                        <label>Foto actual:</label>
+                        @{
+                            await MostrarFotoPerfil(@Model.VideojuegoEdit.RutaFoto);
+                        }
+                    </div>
+
+                    <input type="hidden" asp-for="VideojuegoEdit.RutaFoto" />
+
+                    <div class="form-group">
+                        <label>Seleccionar nueva foto:</label>
+                        <input type="file" id="nuevaFoto" class="form-control" style="display: none;" asp-for="NuevaFoto" />
+                        <a href="#" onclick="cargarFoto()">Cargar nueva foto</a>                        
+                    </div>
+
+                    <script>
+                        function cargarFoto() {
+                            var rutaFotoActual = '@Model.VideojuegoEdit.RutaFoto';
+                            if (rutaFotoActual) {
+                                var inputFoto = document.getElementById("nuevaFoto");
+                                inputFoto.value = "";
+                                inputFoto.click();
+                                inputFoto.addEventListener("change", function() {
+                                    var file = inputFoto.files[0];
+                                    var formData = new FormData();
+                                    formData.append("NuevaFoto", file);
+
+                                    var xhr = new XMLHttpRequest();
+                                    xhr.open("POST", "/Videojuegos/Editar?id=@Model.VideojuegoEdit.Id", true);
+                                    xhr.onload = function () {
+                                        if (xhr.status === 200) {
+                                            // Recargar la página para mostrar la foto actualizada
+                                            location.reload();
+                                        }
+                                    };
+                                    xhr.send(formData);
+                                });
+                            }
+                        }
+
+                    </script>                    
+                   
                     <div>
                         <input class="btn btn-success btn-sm" type="submit" value="Editar" />
                     </div>

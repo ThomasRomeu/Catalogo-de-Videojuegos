@@ -12,7 +12,7 @@
         <div class="col-8 offset-2">
             <h4 class="text-center text-info">Añadir Videojuego</h4>
                 
-                <form method="post" class="row g-3">
+                <form method="post" class="row g-3" enctype="multipart/form-data">
                    
                     
                     <div class="col-md-12">
@@ -72,7 +72,15 @@
                         <label class="form-check-label">¿Tiene multijugador?</label>
                     </div>
                     <br>
-                    
+
+                    <div class="form-group">
+                        Foto
+                        <div class="custom-file">
+                            @Html.TextBoxFor(p=>p.VideojuegoIng.Foto,new {type="file",@class="form-control custom-file-input"})
+                            @Html.LabelFor(p=>p.VideojuegoIng.Foto,"Cargar Foto",new {@class="custom-file-label"})
+                        </div>
+                    </div>
+
                     <div >
                         <input class="btn btn-success btn-sm" type="submit" value="Guardar" />
                     </div>

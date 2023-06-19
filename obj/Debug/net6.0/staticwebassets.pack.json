@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\primerParcial.bundle.scp.css",
+      "PackagePath": "staticwebassets\\primerParcial.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Ankama.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Ankama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Bandai Namco Entertainment.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Bandai Namco Entertainment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Bend Studio.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Bend Studio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Bluepoint Games.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Bluepoint Games.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\CD Projekt RED.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\CD Projekt RED.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Capcom.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Capcom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\FromSoftware.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\FromSoftware.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Guerrilla Games.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Guerrilla Games.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Hangar 13.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Hangar 13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Kojima Productions.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Kojima Productions.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Konami.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Konami.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Naughty Dog.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Naughty Dog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Nintendo.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Nintendo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Playground Games.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Playground Games.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Respawn Entertainment.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Respawn Entertainment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Rockstar Games.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Rockstar Games.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\SIE Santa Monica Studio.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\SIE Santa Monica Studio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Sega.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Sega.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Square Enix.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Square Enix.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Supergiant games.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Supergiant games.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Team cherry.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Team cherry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\imgEmpresa\\Ubisoft.jpg",
+      "PackagePath": "staticwebassets\\imgEmpresa\\Ubisoft.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\6e1427b8-0d1a-4b83-b0bf-066fa9378590.jpg",
+      "PackagePath": "staticwebassets\\img\\6e1427b8-0d1a-4b83-b0bf-066fa9378590.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Apex Legends.jpg",
+      "PackagePath": "staticwebassets\\img\\Apex Legends.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Bloodborne.jpg",
+      "PackagePath": "staticwebassets\\img\\Bloodborne.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\DEATH STRANDING.jpg",
+      "PackagePath": "staticwebassets\\img\\DEATH STRANDING.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Dark Souls 3.jpg",
+      "PackagePath": "staticwebassets\\img\\Dark Souls 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Days Gone.jpg",
+      "PackagePath": "staticwebassets\\img\\Days Gone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Demons Souls Remake.jpg",
+      "PackagePath": "staticwebassets\\img\\Demons Souls Remake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Dofus.jpg",
+      "PackagePath": "staticwebassets\\img\\Dofus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Forza Horizon 5 .jpg",
+      "PackagePath": "staticwebassets\\img\\Forza Horizon 5 .jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Hades.jpg",
+      "PackagePath": "staticwebassets\\img\\Hades.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Hollow Knight.jpg",
+      "PackagePath": "staticwebassets\\img\\Hollow Knight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Horizon Zero Dawn.jpg",
+      "PackagePath": "staticwebassets\\img\\Horizon Zero Dawn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Mafia Edición Definitiva.jpg",
+      "PackagePath": "staticwebassets\\img\\Mafia Edición Definitiva.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Mario Kart 8 Deluxe.jpg",
+      "PackagePath": "staticwebassets\\img\\Mario Kart 8 Deluxe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\PC.png",
+      "PackagePath": "staticwebassets\\img\\PC.png"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Project1.jpg",
+      "PackagePath": "staticwebassets\\img\\Project1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\SamuelLJackson.jpg",
+      "PackagePath": "staticwebassets\\img\\SamuelLJackson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\The Witcher 3 Wild Hunt.jpg",
+      "PackagePath": "staticwebassets\\img\\The Witcher 3 Wild Hunt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Tom_Holland_by_Gage_Skidmore.jpg",
+      "PackagePath": "staticwebassets\\img\\Tom_Holland_by_Gage_Skidmore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\Yu-Gi-Oh! Duel Links.jpg",
+      "PackagePath": "staticwebassets\\img\\Yu-Gi-Oh! Duel Links.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\ad8043e7-ee0d-4b80-8474-b89c03ad768a.jpg",
+      "PackagePath": "staticwebassets\\img\\ad8043e7-ee0d-4b80-8474-b89c03ad768a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\ede5c2a6-4fb8-4937-8ec5-be28533940f9.jpg",
+      "PackagePath": "staticwebassets\\img\\ede5c2a6-4fb8-4937-8ec5-be28533940f9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\nintendo.png",
+      "PackagePath": "staticwebassets\\img\\nintendo.png"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\play.png",
+      "PackagePath": "staticwebassets\\img\\play.png"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\img\\xbox.png",
+      "PackagePath": "staticwebassets\\img\\xbox.png"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\losro\\Desktop\\Thomi\\ISTEA\\Tercer Cuatrimestre\\Herramientas de Programacion\\primerParcial\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.primerParcial.props",
+      "PackagePath": "build\\primerParcial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.primerParcial.props",
+      "PackagePath": "buildMultiTargeting\\primerParcial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.primerParcial.props",
+      "PackagePath": "buildTransitive\\primerParcial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.primerParcial.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
